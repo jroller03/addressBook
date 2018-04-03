@@ -37,14 +37,24 @@
                   <label for="new-state">State</label>
                   <input type="text" class="form-control new-state">
                 </div>
+                <div class="form-group">
+                  <p>Type of Address:</p>
+                    <input type="checkbox" class="new-type" name="type-address" value="home">Home<br>
+                    <input type="checkbox" class="new-type" name="type-address" value="work">Work<br>
+                    <input type="checkbox" class="new-type" name="type-address" value="other">Other<br>
+                </div>
               </div>
             </div>
             <span class="btn btn-primary" id="add-address">Another address</span>
 
-            <button type="submit" class="btn">Add</button>
+            <button type="submit" class="btn btn-success">Add</button>
+
+            <button type="click" id="btn-secondary"> Remove another address</button>
+
           </form>
 
           <h2>Contacts:</h2>
+
           <ul id="contacts">
 
           </ul>
